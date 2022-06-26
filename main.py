@@ -2,7 +2,7 @@ import requests
 import json
 
 
-
+api_key = input("01ae27a2-47d9-4fef-9dc5-e9369a89093f")
 user = input("What user would you like to search for? ")
 
 r = requests.get("https://fortnite-api.com/v2/stats/br/v2")
